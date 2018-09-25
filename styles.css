@@ -1,10 +1,21 @@
-.back {
-        padding-top:20px;
-        width: 100%;
-        padding-left:20px;
-        background-image: field.jpg;
-        /*оформление текста*/
-        color:#FFF;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:40px;
+#h1 {text-align:center; font-size: 88px; color: rgb(204, 240, 143);}
+#h3{text-align:center; font-size: 28px; color: rgb(204, 240, 143);}
+#h2{text-align: center; font-size: 24px; color:white;}
+#body{text-align: center; background-image:url("field.jpg");}
+#main {
+        background-color:grey;
+        height: 100%;
+        overflow:hidden;
+        /*указать фон*/
+      }
+#img1{
+        background-image: url("field.jpg");
 }
+#text{
+        font-size: 40px;
+        position: relative;
+        top:50px;
+        z-index:2;
+        width:100px;
+        height:100px;
+      }
